@@ -34,3 +34,17 @@ img:first-child{
 
 }
 
+p{
+    margin: 0px;
+    line-height: 25px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.container > div > p + p{
+    font-weight: 400;
+    color: rgb(84 77 79);
+    margin-bottom: 5px;
+    
+}
