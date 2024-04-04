@@ -48,3 +48,30 @@ p{
     margin-bottom: 5px;
     
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+
+        grid-template-columns: repeat(3, 1fr); 
+        max-width: 100%
+        
+    }
+    p {
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%; 
+    }
+    p{
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+}
