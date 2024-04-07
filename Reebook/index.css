@@ -142,3 +142,156 @@ i{
     background-repeat: no-repeat;
     max-width: 100%;
 }
+
+nav{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    height: 90px;
+    color: #0c2340;
+    font-weight: 400;
+    font-size: 14px;
+    margin: auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+nav > div > img{
+    /* max-width: 160px; */
+    height: 21px;
+    margin-top: 10px;
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+.links{
+    width: 580px;
+    display: flex;
+    margin-right: 20px;
+}
+.links > a{
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    letter-spacing: 0.00938em;
+    /* width: auto; */
+    box-sizing: border-box;
+    margin: 0px;
+    color: #0c2340;
+    border-bottom: 5px solid transparent;
+}
+.links > a:last-child{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.links a:hover {
+    font-weight: 1000;
+    text-underline-offset: 10px;
+    text-decoration: solid underline rgb(196,12,47) 4px;
+    text-decoration-line: 50%;
+}
+
+.right_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #070707;
+    
+    position: relative;
+    box-sizing: border-box;
+    /* font-size: 20px; */
+    color: #0c2340;
+    background: transparent;
+    padding: 0px;
+    /* align-content: flex-end; */
+}
+
+input{
+    
+    /* width: 105px; */
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+    color: #0c2340;
+    margin: 5px 0px 0px 0px;
+    width: 150px;
+}
+
+.icon1{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-position: 2% 35.25%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+.Button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 2px;
+    width: 280px;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: #c40c2f;
+}
+
+.Button > div{
+    display: block;
+}
+
+.Button > div:nth-of-type(2) > h4,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon3{
+    height: 45px;
+    width: 45px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-position: 3.5% 43.75%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Button > div:nth-of-type(2) > p{
+    font-size: 13px;
+    color: #fff;
+    opacity: 80%;
+    font-weight: normal;
+    line-height: normal;
+}
+.Button > div:nth-of-type(2) > h4{
+    text-transform: uppercase;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
