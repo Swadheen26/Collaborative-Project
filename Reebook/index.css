@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+
+}
+
+.main_container{
+    margin: auto;
+    border: 1px solid grey;
+    max-width: 1520px;
+    border-radius: 5px;
+}
