@@ -10,13 +10,13 @@ body{
 .main_container{
     margin: auto;
     border: 1px solid grey;
-    max-width: 1520px;
+    max-width: 1550px;
     border-radius: 5px;
 }
 
 header{
     display: flex;
-    max-width: 1520px;
+    max-width: 1550px;
     height: 59px;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ header{
     color: #fff;
     
     padding: 0px 6px;
-    font-size: 12px;
+    font-size: 15px;
 }
 header > div{
     display: flex;
