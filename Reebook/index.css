@@ -13,3 +13,132 @@ body{
     max-width: 1520px;
     border-radius: 5px;
 }
+
+header{
+    display: flex;
+    max-width: 1520px;
+    height: 59px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    
+    padding: 0px 6px;
+    font-size: 12px;
+}
+header > div{
+    display: flex;
+}
+header > div > p{
+    margin-left: 16px;
+}
+i{
+    margin-top: 2px;
+    color: rgb(243, 241, 241);
+}
+
+.img{
+    color: white;
+    border: 1px solid red;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png")
+}
+.right_bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.right_bar > span{
+    line-height: normal;
+    height: 50px;
+    align-content: center;
+    padding-right: 20px;
+    position: relative;
+}
+.right_bar > span::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 1px;
+    height: 25px;
+    background: #555;
+}
+
+.Birla{
+    background-position: -4.8% 29.6%;
+    background-size: 259%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    height: 49px;
+    width: 45px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/sprite_logo_header_2.png);
+}
+.icon{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+}
+.icon:nth-of-type(1){
+    background-position: 3.5% 31.75%;
+}
+.icon:nth-of-type(2){
+    background-position: 3.5% 27.9%;
+}
+.icon:nth-of-type(3){
+    background-position: 3.5% 3.8%;
+}
+.icon:nth-of-type(4){
+    background-position: 3.5% 19.9%;
+}
+.icon:nth-of-type(4)::after{
+        content: " ";
+        position: absolute;
+        right: 0;
+        top: 14px;
+        width: 1px;
+        height: 25px;
+        background: #555;
+}
+.icon:nth-of-type(5){
+    background-position: 3.5% 73.55%;
+}
+
+.wishlist{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-position: 3.5% 19.9%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.login{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-position: 3.5% 3.8%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.contact{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://imagescdn.reebok.in/img/app/brands/superapp/Icons/icon_sprite.png);
+    background-position: 3.5% 27.9%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
